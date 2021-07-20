@@ -14,6 +14,7 @@ const VideoSchema = db.define("video", {
   },
   description: {
     type: Sequelize.STRING,
+    allowNull: false,
   },
   urlDirection: {
     type: Sequelize.STRING,
